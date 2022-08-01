@@ -18,7 +18,6 @@ const Contact = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/#home-tab");
     window.location.reload();
   };
   return (
