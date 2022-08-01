@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import "./contact.styles.scss";
 
 const contactFormValues = {
@@ -11,7 +10,6 @@ const contactFormValues = {
 const Contact = () => {
   const [contactFormFields, setContactFields] = useState(contactFormValues);
   const { fullName, email, subject, message } = contactFormFields;
-  const navigate = useNavigate();
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContactFields({ ...contactFormFields, [name]: value });
