@@ -33,9 +33,11 @@ const About = () => {
             Hi, Raj here. Nice to meet you!
           </span>
           <span className="aboutpage-content-message">
-            Since beginning my journey as a Full Stack Developer 5 years ago, I
-            have worked with banks and lorem ipsum lorem ipsum lorem ipsum I
-            have worked with banks and lorem ipsum lorem ipsum lorem ipsum
+            Since beginning my journey 5 years ago as a Full Stack Developer in
+            TCS, I have worked with banks in designing and developing enterprise
+            level web applications using Java, C# and Front End tools. I am
+            naturally curious, confident, creative and constantly working on
+            improving my chops one design problem at a time
           </span>
         </div>
       </div>
