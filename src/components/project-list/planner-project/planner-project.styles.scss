@@ -1,8 +1,7 @@
-@media screen and (max-width: 849px) {
+@media screen and (max-width: 1023px) {
   .plannerproject-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     overflow: hidden;
     .plannerproject-left {
       width: 80%;
@@ -44,7 +43,7 @@
     .plannerproject-right {
       width: 65%;
       margin-top: 100px;
-      min-height: 70vh;
+      height: 600px;
       box-sizing: border-box;
       .plannerproject-images {
         position: relative;
@@ -175,7 +174,7 @@
     }
   }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1024px) {
   .plannerproject-container {
     display: flex;
     min-height: 100vh;
