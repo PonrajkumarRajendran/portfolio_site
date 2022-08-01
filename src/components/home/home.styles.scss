@@ -112,6 +112,16 @@
           width: 100%;
         }
       }
+      .homepage-firstimage {
+        top: -20px;
+        animation: jump 1.25s infinite ease-in-out;
+      }
+      .homepage-secondimage {
+        animation: jump 1.5s infinite ease-in-out;
+      }
+      .homepage-thirdimage {
+        animation: jump 1.5s infinite ease-in-out;
+      }
     }
   }
 
