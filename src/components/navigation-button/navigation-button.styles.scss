@@ -1,0 +1,23 @@
+.navigation-button-container {
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  transition: 0.5s;
+  z-index: 2;
+  .navigation-button-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: #121212;
+    transition: 0.5s;
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+.navigation-button-invisible {
+  visibility: hidden;
+  opacity: 0;
+}

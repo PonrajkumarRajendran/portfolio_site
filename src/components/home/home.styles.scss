@@ -1,0 +1,254 @@
+@media screen and (max-width: 600px) {
+  .homepage-image {
+    width: 150px;
+  }
+  .homepage-firstimage {
+    z-index: 3;
+    left: 35%;
+  }
+  .homepage-secondimage {
+    left: 50%;
+  }
+  .homepage-thirdimage {
+    left: 15%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .homepage-image {
+    width: 30%;
+  }
+  .homepage-firstimage {
+    z-index: 3;
+    left: 35%;
+  }
+  .homepage-secondimage {
+    left: 55%;
+  }
+  .homepage-thirdimage {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .homepage-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .homepage-name-container {
+      margin: 80px 0;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      .homepage-namecard {
+        text-align: left;
+        font-family: "Roboto";
+        font-size: 45px;
+        font-weight: 200;
+        color: #303030;
+        border-bottom: 1px solid #303030;
+        text-shadow: 0 0 10px #303030;
+        .homepage-namecard-bold {
+          font-weight: 400;
+        }
+      }
+      .homepage-jobcard {
+        font-size: 20px;
+        margin-top: 16px;
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #303030;
+        text-shadow: 0 0 10px #303030;
+      }
+      .homepage-downloadCV {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: white;
+        width: 110px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px white;
+        font-weight: 500;
+        cursor: pointer;
+        .homepage-downloadCV-icon {
+          transform: translateY(3px);
+        }
+      }
+    }
+    .homepage-info-container {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      .homepage-image {
+        position: absolute;
+        background-color: white;
+        padding: 20px 10px 30px 10px;
+        box-shadow: 0 0 10px #121212;
+        border-radius: 10px;
+        height: 350px;
+
+        .homepage-firstimage-block {
+          background: url("../../images/first-image.JPG") center right no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .homepage-secondimage-block {
+          background: url("../../images/second-image.JPG") center center
+            no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .homepage-thirdimage-block {
+          background: url("../../images/third-image.JPG") center center
+            no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .homepage-container {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .homepage-name-container {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      padding-left: 40px;
+      .homepage-namecard {
+        width: 90%;
+        text-align: left;
+        font-family: "Roboto";
+        font-size: 60px;
+        font-weight: 300;
+        color: #303030;
+        border-bottom: 2px solid #303030;
+        text-shadow: 0 0 10px #303030;
+        .homepage-namecard-bold {
+          font-weight: 500;
+        }
+      }
+      .homepage-jobcard {
+        font-size: 20px;
+        margin-top: 24px;
+        font-family: "Roboto";
+        font-weight: 500;
+        color: #303030;
+        text-shadow: 0 0 10px #303030;
+      }
+      .homepage-downloadCV {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: white;
+        width: 130px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px white;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+          transform: translateY(-2px);
+        }
+        .homepage-downloadCV-icon {
+          transform: translateY(3px);
+        }
+      }
+    }
+    .homepage-info-container {
+      position: relative;
+      width: 50%;
+      .homepage-image {
+        position: absolute;
+        background-color: white;
+        padding: 20px 10px 30px 10px;
+        box-shadow: 0 0 10px #121212;
+        border-radius: 10px;
+        top: -200px;
+        height: 400px;
+        width: 250px;
+        .homepage-firstimage-block {
+          background: url("../../images/first-image.JPG") center right no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .homepage-secondimage-block {
+          background: url("../../images/second-image.JPG") center center
+            no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .homepage-thirdimage-block {
+          background: url("../../images/third-image.JPG") center center
+            no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .homepage-firstimage {
+        z-index: 3;
+        left: 180px;
+        top: -220px;
+        animation: jump 1.25s infinite ease-in-out;
+      }
+      .homepage-secondimage {
+        left: 320px;
+        animation: jump 1.5s infinite ease-in-out;
+      }
+      .homepage-thirdimage {
+        left: 30px;
+        animation: jump 1.5s infinite ease-in-out;
+      }
+    }
+  }
+
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+.homepage-downloadCV-link {
+  text-decoration: none;
+  color: #121212;
+}

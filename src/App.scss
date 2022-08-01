@@ -1,0 +1,11 @@
+.App {
+  position: relative;
+  // background-color: #ffe69c;
+  background: linear-gradient(
+    180deg,
+    rgba(232, 188, 60, 1) 0%,
+    rgba(255, 206, 60, 1) 53%,
+    rgba(255, 230, 156, 1) 100%
+  );
+  overflow-x: hidden;
+}

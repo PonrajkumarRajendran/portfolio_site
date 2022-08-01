@@ -1,0 +1,228 @@
+@media screen and (max-width: 650px) {
+  .aboutpage-top-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .aboutpage-right-container {
+      transform: translateY(-110px);
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: flex-start;
+      align-items: center;
+      color: #303030;
+      .aboutpage-welcome-message {
+        font-size: 24px;
+        font-weight: 500;
+
+        margin-bottom: 20px;
+      }
+      .aboutpage-content-message {
+        width: 80%;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+  }
+  .aboutpage-contact-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-230px);
+    .aboutpage-contact-icon {
+      margin: 0 20px;
+      background-color: white;
+      padding: 15px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px white;
+      cursor: pointer;
+    }
+    .aboutpage-viewcv-button {
+      padding: 12px 15px;
+      background-color: white;
+      border-radius: 50px;
+      margin: 0 20px;
+      box-shadow: 0 0 10px white;
+      cursor: pointer;
+    }
+  }
+  .aboutpage-bottom-blocks {
+    z-index: -1;
+    transform: translateY(-180px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .aboutpage-bottom-block {
+      height: 550px;
+      width: 350px;
+      margin: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px -5px #121212;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .ap-block-1-image {
+        margin: 20px 0;
+        background: url("./backend.png") center center no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+      }
+      .ap-block-title {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 40px 10px 40px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #303030;
+        color: #303030;
+      }
+      .ap-block-second-title {
+        margin-top: 20px;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 15px;
+      }
+      .ap-block-2-image {
+        margin: 40px 0 25px 0;
+        background: url("./programming.png") center center no-repeat;
+        background-size: contain;
+        width: 70px;
+        height: 60px;
+      }
+      .ap-block-languges {
+        font-size: 15px;
+        font-weight: 300;
+      }
+      .ap-block-tool {
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+@media screen and (min-width: 651px) {
+  .aboutpage-top-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.126);
+    .aboutpage-right-container {
+      transform: translateY(-110px);
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: flex-start;
+      align-items: center;
+      color: #303030;
+      .aboutpage-welcome-message {
+        font-size: 24px;
+        font-weight: 500;
+
+        margin-bottom: 20px;
+      }
+      .aboutpage-content-message {
+        width: 80%;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+  }
+
+  .aboutpage-bottom-blocks {
+    z-index: -1;
+    transform: translateY(-150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .aboutpage-bottom-block {
+      height: 550px;
+      width: 350px;
+      margin: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px -5px #121212;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .ap-block-1-image {
+        margin: 20px 0;
+        background: url("./backend.png") center center no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+      }
+      .ap-block-title {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 40px 10px 40px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #303030;
+        color: #303030;
+      }
+      .ap-block-second-title {
+        margin-top: 20px;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 15px;
+      }
+      .ap-block-2-image {
+        margin: 40px 0 25px 0;
+        background: url("./programming.png") center center no-repeat;
+        background-size: contain;
+        width: 70px;
+        height: 60px;
+      }
+      .ap-block-languges {
+        font-size: 15px;
+        font-weight: 300;
+      }
+      .ap-block-tool {
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+  }
+  .aboutpage-contact-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-230px);
+    .aboutpage-contact-icon {
+      margin: 0 20px;
+      background-color: white;
+      padding: 15px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px white;
+      cursor: pointer;
+      transition: 0.5s;
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+    .aboutpage-viewcv-button {
+      padding: 12px 15px;
+      background-color: white;
+      border-radius: 50px;
+      margin: 0 20px;
+      box-shadow: 0 0 10px white;
+      cursor: pointer;
+      transition: 0.5s;
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+  }
+}
