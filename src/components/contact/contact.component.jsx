@@ -15,7 +15,6 @@ const Contact = () => {
     setContactFields({ ...contactFormFields, [name]: value });
   };
   const handleSubmit = async (e) => {
-    e.preventDefault();
     await fetch("https://pure-badlands-08295.herokuapp.com/api/user/message", {
       method: "POST",
       headers: {
@@ -23,7 +22,6 @@ const Contact = () => {
       },
       body: JSON.stringify(contactFormFields),
     });
-    window.location.reload();
   };
   return (
     <div className="contact-container" id="contact-tab">
