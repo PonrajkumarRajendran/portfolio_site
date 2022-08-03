@@ -14,8 +14,15 @@ const Contact = () => {
     const { name, value } = e.target;
     setContactFields({ ...contactFormFields, [name]: value });
   };
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    await fetch("https://pure-badlands-08295.herokuapp.com/api/user/message", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(contactFormFields),
+    });
     window.location.reload();
   };
   return (
