@@ -22,9 +22,6 @@ const About = () => {
     }
     window.open(url);
   };
-  const cvClick = () => {
-    window.open("/PONRAJKUMAR_Resume.pdf");
-  };
   return (
     <div className="about-container" id="about-tab">
       <div className="aboutpage-top-container">
@@ -57,9 +54,6 @@ const About = () => {
           className="aboutpage-contact-icon"
           icon={faTwitter}
         />
-        <span className="aboutpage-viewcv-button" onClick={cvClick}>
-          View CV
-        </span>
       </div>
       <div className="aboutpage-bottom-blocks">
         <div className="aboutpage-bottom-block">

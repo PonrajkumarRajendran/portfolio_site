@@ -12,15 +12,6 @@ const Home = () => {
         </span>
 
         <span className="homepage-jobcard">Developer, Writer & Cook</span>
-        <Link className="homepage-downloadCV-link" to={"/PONRAJKUMAR_Resume.pdf"} target="_blank" download>
-          <span className="homepage-downloadCV">
-            Download CV
-            <FontAwesomeIcon
-              className="homepage-downloadCV-icon"
-              icon={faDownload}
-            />
-          </span>
-        </Link>
       </div>
       <div className="homepage-info-container">
         <div className="homepage-image homepage-firstimage">
